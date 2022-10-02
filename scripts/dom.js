@@ -29,16 +29,16 @@ const okShow = () => {
   dispDom("block", "none", "block", "none");
 
   // 주사위 그림
-  let tag = `<img src="/images/${ranNum}.png">`;
+  let tag = `<img src="./images/${ranNum}.png">`;
   document.getElementById("msg").innerHTML = tag;
   
   
   //ox 그림
   
   if (ranNum == userNum) {
-    tag = `${tag}<img src="/images/o.png">`;
+    tag = `${tag}<img src="./images/o.png">`;
   } else {
-    tag = `${tag}<img src="/images/x.png">`;
+    tag = `${tag}<img src="./images/x.png">`;
   }
 
   //이미지 표시
