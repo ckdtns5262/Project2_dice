@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- 웹폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
+    <!-- 스타일시트 -->
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>JavaScript연습</title>
+    <!-- 자바스크립트 -->
+    <!-- 위치1 -->
+    <!-- <script>
+        alert("Hello World");
+        console.log("Hello World");
+        console.log(document.getElementById("bt"));
+    </script> -->
+    <script src="./scripts/dom.js"></script>
+
+</head>
+<!-- 여기도 가능 -->
+
+<body>
+    <div id="root">
+        <header><h1 id="h1">주사위게임</h1></header>
+        <main id="content">
+          <section id="msg"></section>
+          <section id="inNum">
+            <form name="form1" id="form1">
+            <fieldset>
+              <legend>번호선택</legend>
+              <input type="radio" name="num" value="1" id="r1"><label for="r1"> 1 </label>
+              <input type="radio" name="num" value="2" id="r2"><label for="r2"> 2 </label>
+              <input type="radio" name="num" value="3" id="r3"><label for="r3"> 3 </label>
+              <input type="radio" name="num" value="4" id="r4"><label for="r4"> 4 </label>
+              <input type="radio" name="num" value="5" id="r5"><label for="r5"> 5 </label>
+              <input type="radio" name="num" value="6" id="r6"><label for="r6"> 6 </label>
+            </fieldset>
+            </form>
+          </section>
+            <section id="bt">
+                <button class="bt1" onclick="diceShow();" id="bt1"><span>주사위</span></button>
+                <button onclick="okShow()" class="bt1" id="bt2"><span>확인</span></button>
+               
+            </section>
+        </main>
+        
+    </div>
+
+
+
+
+</body>
+
+</html>
