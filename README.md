@@ -1,12 +1,10 @@
-# HTML/CSS
+# 자바스크립트
 
-## CSS
+## 웹 프로젝트
+https://ckdtns5262.github.io/Project2_dice/
 
-+ 가변길이 : vh, vw
-+ flex박스를 이용하여 가운데 배치
-+ 중심축 : justify-content:center;
-+ 반대축 : align-items:center;  
-+ 중심축 결정 :
-  + flex-direction :
-  row (왼쪽에서 오른쪽)
-  colunm(위에서 아래)
+## 주사위 게임
+1. 주사위버튼 클릭
+2. 번호선택(1~6번)
+3. 주사위 숫자와 선택한 숫자 비교
+4. 주사위 결과 및 OX 결과 보임
